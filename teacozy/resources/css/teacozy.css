@@ -1,0 +1,105 @@
+
+    body {color: seashell;
+    font-family: "Helvetica";
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 22px}
+
+    header img {padding-left: 10px;
+    height: 50px;
+    }
+
+    nav span {padding: 20px 10px;
+      display: inline-block;
+     }
+
+   header.flex-container-header {
+
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    flex-wrap: wrap;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;}
+
+    nav {text-align: right;
+    display: block;
+    flex-grow:1;}
+
+   .bodycontainer {
+     opacity: 0.9;
+     width: 1200px;
+     padding-top: 69px;
+     margin: auto;}
+
+   #mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;}
+
+    .mission-text {
+    background-color: black;
+    margin: auto;
+    width: 100%;}
+
+    .flex-container-mission {display: flex;
+  justify-content: center
+flex-wrap: wrap;}
+
+#featuredteas {height: 700px;
+    padding-top: 70px;
+    display: block;
+    width: 1000px;
+    margin: auto;
+  }
+
+    .flex-container-images {justify-content: center;
+      display: flex;
+    flex-wrap: wrap;}
+
+    .image img {height: 200px;
+    display: block;
+   margin: 10px;}
+
+    .image {padding: 5px;}
+
+
+    .image span {
+     font-weight: bold;
+      display: block;
+      padding: 5px;
+      text-align: center;}
+
+    #locations {background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    padding-top: 70px;
+    height: 500px;
+    }
+
+    .flex-container-locations {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+    .flex-container.locations {
+    padding-top: 5px;}
+
+    #locations.flex-container {width: 1100px;
+    margin: auto;
+    }
+
+    .location {flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 5px 20px;}
+
+.contact {height: 200px; }
+
+.copyright h5 {text-align: left;}
